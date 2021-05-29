@@ -20,35 +20,36 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="content-wrapper">
 
   <header>
 
     <figure id="main-logo">
       <a href="index.html"><img src="img/unplugged-logo.png" alt="unplugged logo"/></a>    
     </figure>
-    <div class="header-divider"></div>
+   
     <nav class="navigation">
       <ul>
         <li>
-          <a href="about/index.html">About</a>
+          <a href="faq/index.html">Faq</a>
         </li>
         <li>
-          <a href="faq/index.html">Faq</a>
+          <a href="about/index.html">About</a>
         </li>
       </ul>
     </nav> 
+  
+  </header>
 
-      <div class="main-art">
+      <div class="hero-area">
         <h1 id="tag-line">
           Retreat from the desk, return refreshed.
         </h1>
-        <img src="img/unplugged-bridge.jpg" alt="bridge art"/>
       </div>
-  
-  </header>
 
   <main>
 
@@ -65,14 +66,49 @@
 
       <div id="newsletter-form">
         <h2>Find out more</h2>
-        <input type="email" value="email address" name="email">
-        <button type="button" value="Download Itinerary"></button>
+        <div id="newsletter-submit">
+          <input type="email" name="email" placeholder="enter your email here">
+          <button type="button" value="Download Itinerary" id="Itinerary"></button>
+        </div>
       </div>
 
     </aside>
 
-    <section class="content-hero">
-      <h1></h1>
+    <section class="features">
+
+      <h1>Have the work week you always dreamed of — without the bad wifi.
+      </h1>
+
+      <article>
+        <p class="fontawesome-icon"></p>
+        <p class="features-item-description">Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+      </article>
+
+      <article>
+        <p class="fontawesome-icon"></p>
+        <p class="features-item-description">12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
+      </article>
+
+      <article>
+        <p class="fontawesome-icon"></p>
+        <p class="features-item-description">Private chef team providing on demand meals - just like your team kitchen.</p>
+      </article>
+
+      <article>
+        <p class="fontawesome-icon"></p>
+        <p class="features-item-description">5 outdoor obstacle courses, including private beach ½ mile from bungalow.</p>
+      </article>
+
+      <article>
+        <p class="fontawesome-icon"></p>
+        <p class="features-item-description">Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
+      </article>
+
+      <article>
+        <p class="fontawesome-icon"></p>
+        <p class="features-item-description">Dedicated computer room for times that you must wifi.</p>
+      </article>
+
     </section>
 
     <section class="better-team">
@@ -122,6 +158,7 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
 </body>
 
 </html>
