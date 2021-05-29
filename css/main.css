@@ -252,6 +252,14 @@ p {
   width:89%;
 }
 
+footer {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /* ==========================================================================
    Helper classes
