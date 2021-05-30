@@ -142,7 +142,7 @@ a {
 }
 
 img {
-
+  width: 100%;
 }
 
 ul,
@@ -155,7 +155,7 @@ footer {
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -194,9 +194,14 @@ header .content-wrapper a {
   justify-content: center;
 }
 
-header .content-wrapper a img {
+header .content-wrapper figure {
   width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
+
 
 .header-divider {
   width: 100%;
@@ -358,10 +363,6 @@ input[type=button] {
 .better-team h3 {
   width: 55%;
   margin: 20px 0;
-}
-
-.better-team .content-wrapper article img {
-  width: 100%;
 }
 
 /***** About Page *****/
