@@ -619,7 +619,11 @@ footer .content-wrapper {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
-  margin: 0;
+  margin: 50px 0;
+}
+
+.map figure {
+  padding-bottom: 46%;
 }
 
 .mission .content-wrapper p {
