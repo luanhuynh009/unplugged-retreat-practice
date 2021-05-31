@@ -159,7 +159,7 @@ figure {
 }
 
 address {
-
+  font-style: normal;
 }
 
 .content-wrapper {
@@ -423,6 +423,14 @@ input[type=button] {
   background-color: #2a423a;
 }
 
+.general-contact h2 {
+  margin-bottom: 10px;
+}
+
+.general-contact h4 {
+  margin: 5px 0;
+}
+
 /***** Faq Page *****/
 
 .faq {
@@ -537,6 +545,25 @@ input[type=button] {
   margin: 100px 0;
 }
 
+/***** Font *****/
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3, 
+h4 {
+  font-size: 1.5em;
+}
+
+a {
+  font-size: 1em;
+}
+
 /***** Header *****/
 
 header {
@@ -549,16 +576,27 @@ header .content-wrapper {
   width:100%;
 }
 
+header .content-wrapper figure {
+  width: 35%;
+}
+
 header nav {
-  width: 20%;
+  width: 25%;
 }
 
 header nav ul {
   justify-content: space-between;
+  margin: 0;
 }
 
 .header-divider {
   display: none;
+}
+
+/***** Hero Area *****/
+
+.hero-area {
+  height: 600px;
 }
 
 /***** Aside *****/
@@ -566,14 +604,14 @@ header nav ul {
 aside .content-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 22px 0 40px 0;
   margin: 0;
   flex-flow: row wrap;
 }
 
 .newsletter #newsletter-intro,
 .newsletter #newsletter-form {
-  width: 40%;
+  width: 45%;
 }
 
 /***** Features *****/
@@ -590,6 +628,10 @@ aside .content-wrapper {
   width: 50%;
 }
 
+.features .fontawesome-icon {
+  font-size: 4.5em;
+}
+
 /***** Team *****/
 
 .article-layout {
@@ -599,22 +641,29 @@ aside .content-wrapper {
   flex-flow: row wrap;
 }
 
-.better-team article img,
+.better-team h2 {
+  margin-bottom: 20px;
+}
+
 .better-team article {
   width: 49%;
+}
+
+.better-team h4 {
+  margin-top: 0;
 }
 
 /***** Footer *****/
 
 footer .content-wrapper {
-  width: 65%;
-  margin: 100px 0;
+  width: 100%;
+  margin: 100px 0 50px 0;
 }
 
 .footer-content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -624,6 +673,14 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+}
+
+.social-icons p {
+  margin: 0 20px;
+}
+
+footer h4 {
+  margin-top: 0px;
 }
 
 /***** ABOUT *****/
@@ -653,8 +710,9 @@ footer .content-wrapper {
   flex-flow: row wrap;
 }
 
-.general-contact .content-wrapper h2 {
-  width: 100%;
+.general-contact h2 {
+  margin-bottom: 30px;
+  width: 80%;
 }
 
 /***** FAQ *****/
@@ -679,35 +737,92 @@ footer .content-wrapper {
   margin: 100px 0;
 }
 
+/***** Font *****/
+
+h1 {
+  font-size: 3.75em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.25em;
+} 
+
+h4 {
+  font-size: 1.875em;
+}
+
+a {
+  font-size: 1.125em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 24px;
+}
+
 /***** Header *****/
 
+header .content-wrapper figure {
+  width: 25%;
+}
+
 header nav {
-  width: 10%;
+  width: 15%;
+}
+
+/***** Hero Area *****/
+
+.hero-area .content-wrapper {
+  margin: 40px 0 160px 0;
+}
+
+.hero-area h1 {
+  width: 70%;
 }
 
 /***** Aside *****/
 
 aside .content-wrapper {
   justify-content: space-around;
+  width: 800px;
 }
 
 aside .content-wrapper .newsletter-intro,
 aside .content-wrapper .newsletter-form {
-  width: 30%;
+  width: 40%;
 }
 
 /***** Features *****/
 
+.features .features-items {
+  align-items: flex-start;
+}
+
 .features article {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
   flex-basis: 33.3%;
 }
 
 .features .features-item-description {
-  width: 30%;
+  width: 60%;
+}
+
+/***** Better Team *****/
+
+.better-team h2 {
+  margin-bottom: 100px;
+}
+
+.article-layout {
+  align-items: flex-start;
+}
+
+.better-team .content-wrapper article h3 {
+  margin-top: 0;
 }
 
 /***** Footer *****/
@@ -720,16 +835,30 @@ footer .content-wrapper {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
 .contact, .social-media {
-  width: 30%;
+  width: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+}
+
+.social-icons p {
+  margin: 0 20px;
+}
+
+/***** General Contact *****/
+
+.general-contact address {
+  width: 50%;
+}
+
+.general-contact h2 {
+  width: 100%;
 }
 
 }
