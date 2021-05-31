@@ -245,7 +245,7 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -253,6 +253,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  background-color: #527158;
+  width: 45px;
+  height: 45px;
+}
+
+footer .social-icons p i {
+  font-size: 1.125em;
 }
 
 footer .copyright {
